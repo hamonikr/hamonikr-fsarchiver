@@ -1318,7 +1318,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/net.cpp" line="611"/>
         <source>The home partition to be saved is mounted. Do you want to do a live backup?</source>
         <comment>Die zu sichernde Homepartition ist eingehängt. Wollen Sie eine Live-Sicherung durchführen?</comment>
-        <translation>구원을 홈 분할 거치 된다. 라이브 백업 하 시겠습니까?</translation>
+        <translation>저장할 홈 파티션이 마운트됩니다. 라이브 백업을 하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="633"/>
@@ -1610,7 +1610,7 @@ entschlüsseln. Schlüssel</comment>
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?
 </comment>
-        <translation>파티션 유형을 지원 하지 않습니다. 어쩌면 파티션을 암호화는?
+        <translation>파티션 유형을 지원 하지 않습니다. 파티션이 암호화되어 있을 수 있습니다.
 </translation>
     </message>
     <message>
@@ -1645,7 +1645,7 @@ entschlüsseln. Schlüssel</comment>
 </source>
         <comment>Die Partition wurde erfolgreich wieder hergestellt.
 </comment>
-        <translation>분할 성공적인 뒤 이다입니다.
+        <translation>파티션이 성공적으로 복원되었습니다.
 </translation>
     </message>
     <message>
@@ -1658,7 +1658,7 @@ entschlüsseln. Schlüssel</comment>
         <location filename="../src/net.cpp" line="1379"/>
         <source> special data and the partition boot sector were restored.</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</comment>
-        <translation> 특가 상품 및 파티션 부트 레코드 복원 되었습니다.</translation>
+        <translation> 특수 데이터 및 파티션 부트 레코드 복원 되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1409"/>
@@ -1682,7 +1682,7 @@ entschlüsseln. Schlüssel</comment>
 .</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt
 .</comment>
-        <translation> 특가 상품 및 파티션 부트 레코드 복원 되었습니다.</translation>
+        <translation> 특수 데이터 및 파티션 부트 섹터가 복원 되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1421"/>
@@ -1998,7 +1998,7 @@ entschlüsseln. Schlüssel</comment>
         <location filename="../src/setting.cpp" line="49"/>
         <source>gzip best</source>
         <comment>gzip best</comment>
-        <translation>gzip 최상</translation>
+        <translation>gzip 최고</translation>
     </message>
     <message>
         <location filename="../src/setting.cpp" line="49"/>
@@ -2447,13 +2447,13 @@ transmission:</source>
         <location filename="../src/mainWindow.cpp" line="320"/>
         <source>lzma medium</source>
         <comment>lzma medium</comment>
-        <translation>lzma 매체</translation>
+        <translation>lzma 보통</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="321"/>
         <source>lzma best</source>
         <comment>lzma best</comment>
-        <translation>lzma 최고의</translation>
+        <translation>lzma 최고</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="537"/>
@@ -2578,7 +2578,7 @@ verschlüsseln. Schlüssel</comment>
 </source>
         <comment>Das Passwort ist falsch. Das Programm muss beendet werden. Das Schließen des Fensters kann einige Sekunden dauern.
 </comment>
-        <translation>비밀번호가 잘못되었습니다. 프로그램을 종료해야합니다. 창을 닫는 데 몇 초가 걸릴 수 있습니다.</translation>
+        <translation>비밀번호가 잘못되었습니다. 프로그램을 종료해야합니다. 창을 닫는 데 수 초가 걸릴 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="295"/>
@@ -2596,7 +2596,7 @@ verschlüsseln. Schlüssel</comment>
         <location filename="../src/mainWindow.cpp" line="477"/>
         <source>The file /usr/share/doc/qt-fsarchiver/doc/Readme contains instructions for using the program. Do you still want to see this note? You can change this in the basic settings.</source>
         <comment>In der Datei /usr/share/doc/qt-fsarchiver/doc/Liesmich sind Hinweise zur Nutzung des Programms enthalten. Wollen Sie diesen Hinweis weiterhin sehen? Sie können dies in den Basiseinstellungen ändern.</comment>
-        <translation>파일 /usr/share/doc/qt-fsarchiver/Readme에는 프로그램의 사용에 포함 된 지침. 이 표시 될 계속 할까요? 기본 설정에서 변경할 수 있습니다.</translation>
+        <translation>/usr/share/doc/qt-fsarchiver/Readme 파일에는 프로그램 사용에 관한 지침이 포함되어 있습니다. 이 문서를 계속 보겠습니까? 기본 설정에서 변경할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="622"/>
@@ -2705,7 +2705,7 @@ verschlüsseln. Schlüssel</comment>
         <source>No decryption key was specified.</source>
         <comment>Es wurde kein Schlüssel für die Entschlüsselung angegeben.
 </comment>
-        <translation>아무 키를 했다 지정 된 암호를 해독 합니다.</translation>
+        <translation>복호화 키가 지정되지 않았습니다.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1020"/>
@@ -2722,7 +2722,7 @@ verschlüsseln. Schlüssel</comment>
 </source>
         <comment>Sie haben ein Verzeichnis ausgewählt. Sie müssen eine Datei auswählen
 </comment>
-        <translation>디렉터리를 선택 했습니다. 파일을 선택 해야 합니다.
+        <translation>디렉터리를 선택했습니다. 파일을 선택해야 합니다.
 </translation>
     </message>
     <message>
@@ -2737,13 +2737,13 @@ verschlüsseln. Schlüssel</comment>
         <source>You have entered an incorrect password.</source>
         <comment>Sie haben ein falsches Passwort eingegeben. 
 </comment>
-        <translation>암호를 잘못 입력 했습니다.</translation>
+        <translation>암호를 잘못 입력했습니다.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1103"/>
         <source>Do you still want to perform the recovery?</source>
         <comment> überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</comment>
-        <translation>복원을 계속 하 시겠습니까?</translation>
+        <translation>복원을 계속 하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1103"/>
@@ -2762,21 +2762,21 @@ verschlüsseln. Schlüssel</comment>
         <location filename="../src/mainWindow.cpp" line="1139"/>
         <source>There is a file with the contents of the partition boot sector. Do you want to restore the PBR?</source>
         <comment>Es ist eine Datei mit dem Inhalt des Partition Boot Sektors vorhanden. Wollen Sie die Wiederherstellung des PBR durchführen?</comment>
-        <translation>현재 파티션 부트 섹터의 내용으로 파일이입니다. PBR의 복원을 수행 하려면?</translation>
+        <translation>파티션 부트 섹터의 비어있지 않은 파일이 존재합니다. PBR 을 복원하시겠습니까?</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1150"/>
         <source>The system partition to be recovered is mounted and cannot be written back. Please use a Live-CD.</source>
         <comment>Die wiederherzustellende Systempartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
 </comment>
-        <translation>복원 시스템 파티션 탑재 및 다시 작성할 수 있습니다. 라이브 CD를 사용 하십시오.</translation>
+        <translation>복원할 시스템 파티션이 마운트 되었으며 다시 쓸 수 없습니다. 라이브 CD를 사용하십시오.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1157"/>
         <source>The home partition to be restored is mounted and cannot be written back. Please use a live CD.</source>
         <comment>Die wiederherzustellende Homepartition ist eingehängt und kann nicht zurückgeschrieben werden. Benutzen Sie bitte eine Live-CD
 </comment>
-        <translation>복원 홈 분할 탑재 하 고 다시 작성할 수 있습니다. 라이브 CD를 사용 하십시오.</translation>
+        <translation>복원할 홈 파티션이 마운트 되었으며 다시 쓸 수 없습니다. 라이브 CD를 사용하십시오.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1173"/>
@@ -2924,7 +2924,7 @@ verschlüsseln. Schlüssel</comment>
 </source>
         <comment>Die Sicherung der Partition  wurde vom Benutzer abgebrochen!
 </comment>
-        <translation>파티션의 백업 사용자에 의해 중단 되었습니다!
+        <translation>파티션의 백업이 사용자에 의해 중단 되었습니다!
 </translation>
     </message>
     <message>
@@ -2941,7 +2941,7 @@ verschlüsseln. Schlüssel</comment>
 </source>
         <comment>Der Partitionstyp wird nicht unterstützt. Vielleicht ist die Partition verschlüsselt?
 </comment>
-        <translation>파티션 유형을 지원 하지 않습니다. 어쩌면 파티션을 암호화는?
+        <translation>파티션 유형을 지원 하지 않습니다. 파티션이 암호화되어 있을 수 있습니다.
 </translation>
     </message>
     <message>
@@ -2950,7 +2950,7 @@ verschlüsseln. Schlüssel</comment>
 </source>
         <comment>Die Sicherung der Partition war nicht erfolgreich. Die Datei ist zu groß. Nutzen Sie eine FAT-Partition?
 </comment>
-        <translation>파티션을 백업 하는 도중 오류가 발생 했습니다. 파일이 너무 큽니다. FAT 파티션을 사용중인가요?
+        <translation>파티션을 백업 하는 도중 오류가 발생 했습니다. 파일이 너무 큽니다. FAT 파티션을 사용중입니까?
 </translation>
     </message>
     <message>
@@ -2975,7 +2975,7 @@ verschlüsseln. Schlüssel</comment>
 .</source>
         <comment> spezielle Daten wurden nicht korrekt gesichert.
 </comment>
-        <translation>스페셜 제대로 백업 되지 않은.</translation>
+        <translation>특수 데이터가 제대로 백업되지 않았습니다.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1315"/>
@@ -3006,7 +3006,7 @@ HamoniKR fsarchiver 1.0.0, 10 Oct 2020</translation>
 </source>
         <comment>Die Partition wurde erfolgreich wieder hergestellt.
 </comment>
-        <translation>분할 성공적인 뒤 이다입니다.
+        <translation>파티션이 성공적으로 복원되었습니다.
 </translation>
     </message>
     <message>
@@ -3025,7 +3025,7 @@ HamoniKR fsarchiver 1.0.0, 10 Oct 2020</translation>
         <location filename="../src/mainWindow.cpp" line="1678"/>
         <source> special data and the partition boot sector were restored.</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</comment>
-        <translation> 특가 상품 및 파티션 부트 레코드 복원 되었습니다.</translation>
+        <translation> 특수 데이터 및 파티션 부트 섹터가 복원 되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1683"/>
@@ -3074,7 +3074,7 @@ HamoniKR fsarchiver 1.0.0, 10 Oct 2020</translation>
 .</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt
 .</comment>
-        <translation> 특가 상품 및 파티션 부트 레코드가 복원 되었습니다.</translation>
+        <translation> 특수 데이터 및 파티션 부트 섹터가 복원 되었습니다.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1727"/>
@@ -3489,7 +3489,7 @@ with fsarchi&amp;ver</source>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="827"/>
         <source>breakprocess</source>
-        <translation>프로세스중단</translation>
+        <translation>프로세스 중단</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="836"/>
@@ -3520,7 +3520,7 @@ with fsarchi&amp;ver</source>
 </source>
         <comment>Es ist derzeit kein Netzwerkrechner erreichbar.
 </comment>
-        <translation>현재 사용 가능한 네트워크 컴퓨터입니다.
+        <translation>현재 사용 가능한 네트워크 컴퓨터가 없습니다.
 </translation>
     </message>
     <message>
@@ -3547,7 +3547,7 @@ with fsarchi&amp;ver</source>
 </source>
         <comment>Sie müssen den Benutzernamen eingeben. Sonst kann nicht auf Netzrechner zugegriffen werden
 </comment>
-        <translation>사용자 이름을 입력 해야 합니다. 그렇지 않으면 수 없는 네트워크 컴퓨터에 액세스할 수 없습니다.
+        <translation>사용자 이름을 입력 해야 합니다. 그렇지 않으면 네트워크 컴퓨터에 액세스할 수 없습니다.
 </translation>
     </message>
     <message>
@@ -3883,7 +3883,7 @@ backup key</source>
         <location filename="../src/ui/mbr_dialog.ui" line="42"/>
         <source>Restore hidden area. (Without bootloader and without partition table).</source>
         <extracomment>Verborgenen Bereich  wieder herstellen. (Ohne  Bootloader und ohne Partitionstabelle).</extracomment>
-        <translation>숨김 영역 복원 (부트 로더 및 파티션 테이블 없이).</translation>
+        <translation>숨김 영역 복원 (부트 로더 및 파티션 테이블 제외).</translation>
     </message>
     <message>
         <location filename="../src/ui/mbr_dialog.ui" line="61"/>
@@ -3958,7 +3958,7 @@ compression:</source>
         <location filename="../src/ui/setting.ui" line="113"/>
         <source>Overwrite existing files by default</source>
         <extracomment>vorhandene Dateien * standardmäßig überschreiben</extracomment>
-        <translation>기본적으로 기존 파일 무시</translation>
+        <translation>기본적으로 기존 파일 덮어쓰기 허용</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="126"/>
@@ -3983,7 +3983,7 @@ to the original location by default</source>
         <location filename="../src/ui/setting.ui" line="166"/>
         <source>Archive file size divided on DVD</source>
         <extracomment>Archiv-Datei auf DVD * Größe aufteilen</extracomment>
-        <translation>DVD에 나누어 보관 파일 크기</translation>
+        <translation>DVD에 나누어 보관 파일 분할</translation>
     </message>
     <message>
         <location filename="../src/ui/setting.ui" line="179"/>
